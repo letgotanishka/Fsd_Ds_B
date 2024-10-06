@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color:yellow;
+}
+a,.lgn,.sgn
+{
+    background-color: blueviolet;
+    font-size: 40px;
+    border: 5px soild goldenrod;
+    border-radius: 12px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color:blanchedalmond;
+    color:aqua;
+}
+.main-content
+{
+    display: flex;
+    border: 3px solid greenyellow;
+    justify-content: space-between;
+    margin: 20px;
+    height: 300px;
+    background-color: aquamarine;
+}
